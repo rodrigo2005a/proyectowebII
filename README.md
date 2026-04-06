@@ -6,6 +6,7 @@ Institución: Universidad Privada de Santa Cruz (UPDS)
 
 Fecha: Abril 2026
 
+
 A skeleton for creating applications with [CakePHP](https://cakephp.org) 5.x.
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
