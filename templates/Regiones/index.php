@@ -15,6 +15,7 @@
                     <th><?= $this->Paginator->sort('nombre') ?></th>
                     <th><?= $this->Paginator->sort('paises') ?></th>
                     <th><?= $this->Paginator->sort('superficie_km2') ?></th>
+                    <th><?= $this->Paginator->sort('capital_regional') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>

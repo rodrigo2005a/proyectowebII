@@ -32,7 +32,7 @@ El proyecto se basa en la arquitectura MVC (Modelo-Vista-Controlador) propia de 
 
 Componentes Clave:
 
-    Capa de Datos: Uso de Migrations para la creación de tablas (Personas, Alumnos, Usuarios) y Seeds para datos de prueba.
+    Capa de Datos: Uso de Migrations para la creación de tablas (USERS Y REGIONES ) y Seeds para datos de prueba.
 
     Lógica de Negocio: Implementación de validaciones personalizadas en los Table Objects para asegurar la integridad de los datos.
 

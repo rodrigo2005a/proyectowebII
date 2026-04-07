@@ -44,6 +44,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <a target="_blank" rel="noopener" href="https://book.cakephp.org/5/">Documentation</a>
             <a target="_blank" rel="noopener" href="https://api.cakephp.org/">API</a>
         </div>
+        <div class="language-switcher top-nav-language-switcher">
+            <?php if (!empty($availableLocales)): ?>
+                <?php foreach ($availableLocales as $code => $label): ?>
+                    <?= $this->Html->link($label, ['?' => ['lang' => $code]], ['class' => $locale === $code ? 'selected' : '']) ?>
+                <?php endforeach; ?>
+            <?php endif; ?>
+        </div>
     </nav>
     <main class="main">
         <div class="container">

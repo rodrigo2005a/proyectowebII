@@ -6,8 +6,7 @@ $locale = $this->get('locale') ?? 'en_US';
 ?>
 <div class="users login content">
     <div class="language-switcher" style="margin-bottom: 1rem;">
-        <?= $this->Html->link('English', ['action' => 'login', '?' => ['lang' => 'en_US']], ['class' => $locale === 'en_US' ? 'selected' : '']) ?>
-        <?= $this->Html->link('Español', ['action' => 'login', '?' => ['lang' => 'es_ES']], ['class' => $locale === 'es_ES' ? 'selected' : '', 'style' => 'margin-left: 1rem;']) ?>
+        
     </div>
 
     <h3><?= $locale === 'es_ES' ? 'Iniciar sesión' : 'Login' ?></h3>

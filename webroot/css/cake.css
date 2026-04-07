@@ -369,6 +369,23 @@ input[type='color'] {
     }
 }
 
+.top-nav-language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .top-nav {
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+    .top-nav-language-switcher {
+        justify-content: flex-start;
+        width: 100%;
+    }
+}
+
 /* Table styling for Users and Regiones */
 .users.index.content,
 .regiones.index.content {
